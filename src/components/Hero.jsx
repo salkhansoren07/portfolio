@@ -29,7 +29,7 @@ const Hero = () => {
           </h1>
           
           <h3 className="bg-gradient-to-r from-pink-500 to-blue-500 bg-clip-text
-          text-transparent text-2xl md:text-3xl">Full Stack-Developer
+          text-transparent text-2xl md:text-3xl">Software Engineer
           </h3>
           <p className="md:text-base text-pretty text-sm text-gray-400">I am a 3rd-year B.Tech Computer Science student at Parul University, passionate about building
 innovative tech solutions and exploring emerging technologies. With strong expertise in full-stack

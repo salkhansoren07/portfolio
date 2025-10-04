@@ -7,7 +7,7 @@ export const projectdata = [
     image: image1,
     title: "RFID Based Attendance System",
     description: "I developed an RFID-based attendance system using Arduino Uno and an RFID sensor to automate and digitize attendance management. The system enables quick, contactless identification, ensuring accuracy and reducing manual errors. It provides a secure, efficient, and user-friendly solution adaptable for schools, colleges, and organizations to streamline daily attendance tracking.",
-    technologies: ["Arduino Uno", "RFID MRFC522 module", "C", "Python"]
+    technologies: ["Arduino Uno", "MRFC522 module", "C", "Python"]
   },
 
   {

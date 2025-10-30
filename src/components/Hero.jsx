@@ -38,7 +38,7 @@ creativity to deliver impactful results. My hands-on experience in database mana
 microprocessor-based systems allows me to bridge the gap between software and hardware. Skilled
 in networking and effective communication, I excel in collaborative team environments. I am seeking
 internship opportunities in web development, cloud computing, or IoT to apply my skills to real-
-world challenger.</p>
+world challenge.</p>
         </motion.div>
       </div>
     </div>

@@ -1,26 +1,44 @@
-import image3 from "/public/admin.png";
-import image2 from "/public/Tudy.jpg";
-import image1 from "/public/uno.png";
+import image1 from "/uno-preview.jpg"
+import image2 from "/admin-preview.jpg"
+import image3 from "/Tudy.jpg"
+import image4 from "/img4-preview.jpg"
 
 export const projectdata = [
   {
     image: image1,
+    category: "Embedded + Hardware",
+    year: "2025",
     title: "RFID Based Attendance System",
-    description: "I developed an RFID-based attendance system using Arduino Uno and an RFID sensor to automate and digitize attendance management. The system enables quick, contactless identification, ensuring accuracy and reducing manual errors. It provides a secure, efficient, and user-friendly solution adaptable for schools, colleges, and organizations to streamline daily attendance tracking.",
-    technologies: ["Arduino Uno", "MRFC522 module", "C", "Python"]
+    description:
+      "I developed an RFID-based attendance system using Arduino Uno and an RFID sensor to automate and digitize attendance management. The system enables quick, contactless identification, ensuring accuracy and reducing manual errors.",
+    technologies: ["Arduino Uno", "MFRC522", "C", "Python"],
   },
-
-  {
-    image: image3,
-    title: "Admin Portal",
-    description: "I built an admin portal for my RFID-based attendance system using Python CustomTkinter. The portal provides an interactive interface to manage users, view attendance logs, and track real-time data. It enhances efficiency, accuracy, and usability, showcasing my skills in Python GUI development, data handling, and system integration.",
-    technologies: ["React", "Tailwind", "SQL", "python"]
-  },
-
   {
     image: image2,
+    category: "Admin Dashboard",
+    year: "2025",
+    title: "Admin Portal",
+    description:
+      "I built an admin portal for my RFID-based attendance system using Python CustomTkinter. The portal provides an interactive interface to manage users, view attendance logs, and track real-time data with a focus on clarity and usability.",
+    technologies: ["CustomTkinter", "SQL", "Python", "UI Design"],
+  },
+  {
+    image: image3,
+    category: "Frontend App",
+    year: "2025",
     title: "ToDo App",
-    description: "I developed a To-Do application designed to manage daily tasks efficiently with features like task creation, updating, and deletion. The app provides a simple and user-friendly interface to improve productivity and organization. It demonstrates skills in front-end design, backend logic, and practical implementation of task management solutions.",
-    technologies: ["React", "Tailwind", "Vite", "Typescript"]
-  }
-];
+    description:
+      "I developed a To-Do application for managing daily tasks with creation, editing, and deletion flows. The app focuses on a simple user experience while showing solid frontend structure and practical state handling.",
+    technologies: ["React", "Tailwind", "Vite", "TypeScript"],
+  },
+  {
+    image: image4,
+    category: "Finance Tracker",
+    year: "2025",
+    title: "FinTrak",
+    link: "https://www.fintrak.online",
+    description:
+      "I developed FinTrak, a financial tracking app that helps users organize expenses and income, set budgets, and follow spending patterns. It combines a user-friendly interface with practical budgeting workflows.",
+    technologies: ["React", "Tailwind", "Node.js", "JavaScript"],
+  },
+]
